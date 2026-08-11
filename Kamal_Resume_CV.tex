@@ -1,5 +1,5 @@
 \documentclass[10pt,letterpaper]{article}
-\include{Resume_sty}
+\input{Resume_sty}
 \hyphenation{Some-long-word} 
 
 \begin{document}
@@ -7,197 +7,118 @@
 
 \noindent\textsmaller{+}1 (801) 921-2420\bull
 \href{mailto:kamalpangeni@gmail.com}{kamalpangeni@gmail.com}\bull
-\href{https://github.com/kamalpangeni}
-{github.com/kamalpangeni}\\
-\href{https://www.linkedin.com/in/kamal-pangeni-31242a29/}
-{www.linkedin.com/in/kamalpangeni}\bull
-\href{https://scholar.google.com/citations?user=MJPS73gAAAAJ&hl=en}
-{scholar.google.com/\textsmaller{+}KamalPangeniPhD}
-
+\href{https://github.com/kamalpangeni}{github.com/kamalpangeni}\\
+\href{https://www.linkedin.com/in/kamal-pangeni-31242a29/}{linkedin.com/in/kamalpangeni}\bull
+\href{https://scholar.google.com/citations?user=MJPS73gAAAAJ&hl=en}{scholar.google.com/\textsmaller{+}KamalPangeniPhD}
 
 \roottitle{Professional Profile}
-%\spacedhrule{0.1em}{0.1em}
 \hrule
-\vspace{1ex}
-I am a data scientist with 6+ years of industry experience in data mining, predictive analytics, and machine learning. Trained as a theoretical physicist, I enjoy solving complex problems with innovative ideas. I am passionate about developing and delivering AI/ML solutions using cutting-edge technologies to enhance, augment, and automate company-wide decision-making processes.
-\vspace{-2ex}
-%\hrule
-%%%%%%%%%%%%%%%%%%%
-%Areas of Expertiese
-%%%%%%%%%%%%%%%%%%%%
-%\roottitle{Areas of Expertise} 
- %$\bullet$ Supervised and Unsupervised Machine Learning \hspace{2.6cm}
- %$\bullet$ Deep Learning\\
- %$\bullet$ Natural Language Processing\hspace{5.4cm}
- %$\bullet$ Statistical analysis\\
- %$\bullet$ Mathematical modeling \hspace{6.1cm}
- %$\bullet$ Algorithm development and implementation\\
- %$\bullet$ Monte Carlo modeling and simulations \hspace{3.95cm}
- %$\bullet$ Problem solving
- 
+\vspace{0.8ex}
+Data Science \& Applied AI/ML Lead with 8+ years of industry experience across financial services, healthcare, and predictive analytics. Theoretical physicist by training, specializing in scaling LLM architectures, GenAI agent workflows, RAG pipelines, and high-impact machine learning solutions to automate complex enterprise decisions.
+\vspace{-1ex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Data Science 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\hrule
-\roottitle{ Experience}
+\roottitle{Experience}
 \hrule
-\vspace{1ex}
+\vspace{0.8ex}
+\headedsubsection
+{Applied AI/ML Lead \hspace{3ex} @JPMorgan Chase}
+{May 2025--Present}
+{\bodytext{
+\begin{itemize}
+\item Designed and deployed an end-to-end eDiscovery pipeline combining embedding-based retrieval with LLM prompting to isolate relevant document populations from thousands of files, saving millions in external legal review fees.
+\item Extended retrieval pipeline to automatically extract key case events and generate structured timeline narratives, eliminating manual legal document review.
+\item Architected a tool-calling conversational agent that autonomously queries structured databases, joining multi-source data to output precise, natural language responses to user prompts.
+\end{itemize}
+}}
+
 \headedsubsection
 {Senior Data Scientist \hspace{3ex} @CVS Health}
-{Oct 2021-Present}
-{\bodytext { I worked with cross-functional teams to identify and eliminate fraud, waste, and abuse in the pharmacy space.
+{Oct 2021--May 2025}
+{\bodytext{
 \begin{itemize}
-\item  Developed anomaly detection algorithm to identify generic drugs with pricing anomalies that were being exploited by certain pharmacies. Collaborated with the pricing team to quickly address the issue. Received "Premier Award" for joining forces with other teams and working quickly towards meaningful action.
-\item Developed a semi-supervised machine learning model to identify fraudulent pharmacies. This approach used t-SNE to generate pharmacy clustering and the XGBoost model along with Shapley values to establish personas of each cluster. The findings from this work were forwarded to the special investigative unit for necessary action.
-\item Developed a supervised machine learning model (a multi-class classifier) to predict the primary specialty of physicians based on their drug prescribing pattern. The predictions from this model were then used to identify physicians who were prescribing out of their primary specialty.
-\item  Established the methodology and wrote necessary code in Teradata SQL to build the FWA data layer that was used to monitor and letter pharmacies and prescribers suspected of committing fraud in the drug prior authorization process.
-\item Led a team of 8 members to the final round (Top 5 out of  ~50 teams) of CVS-wide analytics venture competition. We presented our idea of using data-centric AI to combat pharmacy fraud.
+\item Built an LLM agent to evaluate member prior authorization eligibility against electronic provider records, accelerating authentication precision and turnaround time.
+\item Developed a LangChain GenAI engine to auto-generate structured test/question sets from policy documents, reducing processing time from days to under an hour.
+\item Created an anomaly detection algorithm uncovering generic drug pricing exploitation by select pharmacies; partnered with pricing teams to remediate and received the \textbf{Premier Award}.
+\item Engineered a semi-supervised pipeline (t-SNE clustering with XGBoost/SHAP personas) identifying fraudulent pharmacy entities for escalation to special investigation teams.
 \end{itemize}
 }}
-
-%%%%%%%%%%%%%%
 
 \headedsubsection
-{ Data Scientist -  Machine Learning \hspace{3ex} @Mercy Hospital, St. Louis}
-{ Feb 2018 - Sept 2021}
-{\bodytext{ I was responsible for the development and execution of machine learning models to automate/augment clinical workflow to drive operational efficiency and create profitability.
+{Data Scientist - Machine Learning \hspace{3ex} @Mercy Hospital, St. Louis}
+{Feb 2018--Sept 2021}
+{\bodytext{
 \begin{itemize}
-\item  Built and deployed a machine learning model to predict DRG codes of inpatient billing based on clinical notes and discrete patient data. The production model generate more than \$10 million in annual revenue by identifying and correcting incorrectly coded cases early in the billing process. This project was selected as a finalist (in the cost and efficiency category) at the company-wide innovation conference. 
-\item Automated the cancer registry case-finding process by using NLP techniques to imaging/pathology notes and physician notes. This resulted in savings by reducing the labor cost associated with finding cancer registry cases. 
-\item Used predictive analytics to estimate the financial impact of elective surgery cancellations due to COVID-19. The findings were presented to c-suite leadership to aid with their decision-making process.
-\item Developed an NLP model based on deep learning to predict the diagnosis code for inpatient admission from physician notes.
-%\item Won first ever Mercy hackathon \href {https://www.linkedin.com/feed/update/urn:li:activity:6582628165401792512/}{[LINK]}. 
+\item Built and deployed a clinical NLP model predicting inpatient DRG billing codes from clinical notes, generating \$10M+ in annual revenue capture; named innovation award finalist.
+\item Applied NLP algorithms on imaging/pathology reports and physician notes to automate cancer registry case-finding and optimize inpatient diagnosis code workflows.
+\item Modeled the financial impact of elective surgery cancellations during COVID-19 to advise C-suite leadership on resource allocation and operational strategy.
 \end{itemize}
 }}
-%\headedsubsection
-%{ Graduate Research Assistant \hspace{9ex}@Washington University, St. Louis}
-%{ Aug 2013-Aug 2017}
-%{\bodytext{ My doctoral research covered various aspects of quantum chromodynamics (QCD) at nonzero temperature and density. Some of my achievements included:
-%\begin{itemize}
-%	\item Development and implementation of numerical algorithms to find the saddle point of a multi-dimensional function, and perform multi-dimensional integration, to study the %phase structure of QCD and liquid-gas system.
-%	\item Computation of the mass spectrum and correlation functions in lattice models of QCD by numerically diagonalizing matrices of large dimensions.
-%	\item Perform multi-dimensional integral numerically using Monte Carlo techniques to calculate the rate of neutrino emission from neutron stars. 
-%	\end{itemize} }}
-
-\vspace{-2ex}
 
 \roottitle{Skills}
 \hrule
-\vspace{1ex}
-\textbf{Computer Languages}: SQL, Python, Mathematica, MATLAB, C++, java, \LaTeX \\
-\textbf{Data analysis and visualization}: BigQuery, Pandas, Matplotlib, Seaborn, QlikView, QlikSense, Tableau\\
-\textbf{ Machine Learning}: Scikit-Learn, Keras, XGboost, LightGBM, Tensorflow, Pytorch, Vertex AI\\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Experience
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%
-%Education
-%%%%%%%%%%%%%%%%%%%%
-
-
-\vspace{-2ex}
+\vspace{0.8ex}
+\textbf{Languages}: Python, SQL, C++, Java, MATLAB, Mathematica, \LaTeX \\
+\textbf{Data \& Analytics}: BigQuery, Pandas, Matplotlib, Seaborn, QlikSense, QlikView, Tableau \\
+\textbf{AI / Machine Learning}: PyTorch, TensorFlow, Keras, Scikit-Learn, XGBoost, LightGBM, Vertex AI, OpenAI, RAG, LLM Agents, LangChain
 
 \roottitle{Education}
 \hrule
-\vspace{1ex}
-\headedsection
-{Washington University in St. Louis, St. Louis, MO}
-{} {
-
-\headedsubsection
-{Doctor of Philosophy in Physics}{\textsc{Aug 2017}}
-{}
-{\bodytext{Dissertation:
-    {\textit{Topics in QCD at nonzero temperature and density}}}}
-
-\headedsubsection
-{Masters of Science in Physics }{\textsc{May 2013}}
-{}{}}
-
-
-\headedsection
-{Brigham Young University, Provo, UT}
-{} {
-
-\headedsubsection
-{Bachelors of Science in Physics and Mathematics}{\textsc{Aug 2011}}
-{}
-{\bodytext{}}
-}
+\vspace{0.8ex}
+\textbf{Washington University in St. Louis}, St. Louis, MO \\
+Ph.D. in Physics \hfill \textsc{Aug 2017} \\
+M.S. in Physics \hfill \textsc{May 2013} \\[0.5ex]
+\textbf{Brigham Young University}, Provo, UT \\
+B.S. in Physics and Mathematics \hfill \textsc{Aug 2011}
 
 \newpage
 \maintitle{Kamal Pangeni, Ph.D.}{}
 
 \noindent\textsmaller{+}1 (801) 921-2420\bull
-\href{mailto:kamalpangeni@wustl.edu}{kamalpangeni@wustl.edu}\bull
-\href{https://github.com/kamalpangeni}
-{github.com/kamalpangeni}\\
-\href{https://www.linkedin.com/in/kamal-pangeni-31242a29/}
-{www.linkedin.com/in/kamalpangeni}\bull
-\href{https://scholar.google.com/citations?user=MJPS73gAAAAJ&hl=en}
-{scholar.google.com/\textsmaller{+}KamalPangeniPhD}
+\href{mailto:kamalpangeni@gmail.com}{kamalpangeni@gmail.com}\bull
+\href{https://github.com/kamalpangeni}{github.com/kamalpangeni}\\
+\href{https://www.linkedin.com/in/kamal-pangeni-31242a29/}{linkedin.com/in/kamalpangeni}\bull
+\href{https://scholar.google.com/citations?user=MJPS73gAAAAJ&hl=en}{scholar.google.com/\textsmaller{+}KamalPangeniPhD}
 
-
-\vspace{-1ex}
+\vspace{0.8ex}
 \roottitle{Machine Learning Certificates}
 \hrule
-\vspace{1ex}
-{*click on the title to view certificate}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/certificate/BUL4BCDP55V6}{Building Basic Generative Adversarial Networks}}{Jun 2023}{}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/certificate/VZHHWVMY9JFT}{Causal Inference from Observational Data}}{Jan 2022}{}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/specialization/86SNN7EEXUL2}{Reinforcement Learning Specialization (4 courses)}}{Mar 2020}{}
-\headedsubsection
-%{\href{https://www.coursera.org/account/accomplishments/certificate/Q495SV77QKBY}{Sample-based Learning Methods}}{Jan 2020}{}
-%\headedsubsection
-%{\href{https://www.coursera.org/account/accomplishments/certificate/GXSM8ZMNXLYR}{Fundamentals of Reinforcement Learning}}{Dec 2019}{}
-%\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/certificate/KFLEJGRZMYQZ}{Introduction to TensorFlow for AI, ML and DL}}{Jun 2019}{}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/specialization/P8F8U69WUCVD}{Deep Learning Specialization (5 Courses)}}{May 2019} {}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/verify/WAQ4WS7BCBDS}{How to Win a Data Science Competition}}{Jun 2018}{}
-\headedsubsection
-{\href{https://www.coursera.org/account/accomplishments/certificate/R3Q26XAHTCHD}{Machine Learning}}{Nov 2017}{}
+\vspace{0.8ex}
+\begin{itemize}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/BUL4BCDP55V6}{\textbf{Building Basic Generative Adversarial Networks}} \hfill \textsc{Jun 2023}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/VZHHWVMY9JFT}{\textbf{Causal Inference from Observational Data}} \hfill \textsc{Jan 2022}
+\item \href{https://www.coursera.org/account/accomplishments/specialization/86SNN7EEXUL2}{\textbf{Reinforcement Learning Specialization}} (4-course sequence) \hfill \textsc{Mar 2020}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/KFLEJGRZMYQZ}{\textbf{Introduction to TensorFlow for AI, ML, and DL}} \hfill \textsc{Jun 2019}
+\item \href{https://www.coursera.org/account/accomplishments/specialization/P8F8U69WUCVD}{\textbf{Deep Learning Specialization}} (5-course sequence) \hfill \textsc{May 2019}
+\item \href{https://www.coursera.org/account/accomplishments/verify/WAQ4WS7BCBDS}{\textbf{How to Win a Data Science Competition}} \hfill \textsc{Jun 2018}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/R3Q26XAHTCHD}{\textbf{Machine Learning}} \hfill \textsc{Nov 2017}
+\end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%
-%Awards
-%%%%%%%%%%%%%%%%%%%%%%
-\roottitle{ Honors and Awards} 
+\roottitle{Honors and Awards}
 \hrule
-\vspace{1ex}
-$\bullet$ {\bf Premier Award at CVS} for joining forces to better serve customers\hfill{\bf Aug 2023}\\
-$\bullet$ {\bf Finalist in CVS analytic venture competition  AVC2022}\hfill{\bf Nov 2022}\\
-$\bullet$ {\bf Finalist in Mercy wide innovation conference}\hfill{\bf Oct 2019}\\
-$\bullet$ {\bf Winner of 1st Mercy Hackathon} [\href {https://www.linkedin.com/feed/update/urn:li:activity:6582628165401792512/}{link}]\hfill{\bf Sept 2019}\\
- $\bullet$ {\bf Arthur L. Hughes Fellow}, Washington University[\href{https://physics.wustl.edu/graduate#secondary}{link}]\hfill {\bf Summer 2012}\\
- $\bullet$ {\bf University Fellow}, Washington University [\href{https://physics.wustl.edu/graduate#secondary}{link}] \hfill {\bf 2011 \& 2013 }\\
- $\bullet$ {\bf Harvery Fletcher Scholarship}, Brigham Young University\hfill {\bf 2010/2011}\\
- $\bullet$ {\bf Academic Scholarship}, Brigham Young University\hfill{\bf 2007-2010}\\
- $\bullet$ {\bf Physics Department Scholarship}, Brigham Young University \hfill{\bf 2007-2010}\\
+\vspace{0.8ex}
+\begin{itemize}
+\item \textbf{Premier Award}, CVS Health \hfill \textsc{Aug 2023}
+\item \textbf{Finalist}, CVS Analytic Venture Competition (AVC2022) \hfill \textsc{Nov 2022}
+\item \textbf{Finalist}, Mercy-Wide Innovation Conference \hfill \textsc{Oct 2019}
+\item \textbf{Winner}, 1st Mercy Hackathon [\href{https://www.linkedin.com/feed/update/urn:li:activity:6582628165401792512/}{Link}] \hfill \textsc{Sept 2019}
+\item \textbf{Arthur L. Hughes Fellow}, Washington University [\href{https://physics.wustl.edu/graduate#secondary}{Link}] \hfill \textsc{Summer 2012}
+\item \textbf{University Fellow}, Washington University [\href{https://physics.wustl.edu/graduate#secondary}{Link}] \hfill \textsc{2011, 2013}
+\item \textbf{Harvey Fletcher Scholarship}, Brigham Young University \hfill \textsc{2010--2011}
+\item \textbf{Academic \& Physics Department Scholarships}, Brigham Young University \hfill \textsc{2007--2010}
+\end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Publications
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \roottitle{Publications}
 \hrule
-\vspace{1ex}
-(Note: In high energy physics, name of authors are listed in alphabetical order)\\
+\vspace{0.8ex}
+\textit{\small (Note: In high energy physics, authors are listed in alphabetical order)}
 
 \begin{itemize}
-\item  M. Alford, \textbf{K. Pangeni} and A. Windisch ``Color Superconductivity and Charge Neutrality in Yukawa Theory", Physics Review Letters 120, 082701 (2018)
- \item H. Nishimura, M. Ogilvie and \textbf{K. Pangeni}, ``Liquid-Gas Phase Transition and $CK$ Symmetry in Quantum Field Theories'', Physical Review D 95, 076003(2017).
-\item  Mark Alford and \textbf{Kamal Pangeni} ``Gap bridging enhancement of modified Urca process in nuclear matter.'', Physical Review C 95, 015802 (2017).
- \item H. Nishimura, M. Ogilvie and \textbf{K. Pangeni}, ``Complex mass spectrum in lattice QCD with static quarks at strong coupling'', Physical Review D 93, 094501 (2016).
- \item  H. Nishimura, M. Ogilvie and \textbf{K. Pangeni}, ``Complex saddle points and disorder lines in QCD at finite temperature and density'', Physical Review D 91,054004 (2015). 
- \item H. Nishimura, M. Ogilvie and \textbf{K. Pangeni}, ``Complex saddle points in QCD at finite temperature and density'', Physical Review D 90,045039 (2014). 
- \end{itemize}
+\item M. Alford, \textbf{K. Pangeni}, and A. Windisch, ``Color Superconductivity and Charge Neutrality in Yukawa Theory'', \textit{Physical Review Letters} 120, 082701 (2018).
+\item H. Nishimura, M. Ogilvie, and \textbf{K. Pangeni}, ``Liquid-Gas Phase Transition and $CK$ Symmetry in Quantum Field Theories'', \textit{Physical Review D} 95, 076003 (2017).
+\item M. Alford and \textbf{K. Pangeni}, ``Gap bridging enhancement of modified Urca process in nuclear matter'', \textit{Physical Review C} 95, 015802 (2017).
+\item H. Nishimura, M. Ogilvie, and \textbf{K. Pangeni}, ``Complex mass spectrum in lattice QCD with static quarks at strong coupling'', \textit{Physical Review D} 93, 094501 (2016).
+\item H. Nishimura, M. Ogilvie, and \textbf{K. Pangeni}, ``Complex saddle points and disorder lines in QCD at finite temperature and density'', \textit{Physical Review D} 91, 054004 (2015).
+\item H. Nishimura, M. Ogilvie, and \textbf{K. Pangeni}, ``Complex saddle points in QCD at finite temperature and density'', \textit{Physical Review D} 90, 045039 (2014).
+\end{itemize}
+
 \end{document}
-
-
-
