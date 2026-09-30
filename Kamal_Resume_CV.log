@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  28 SEP 2026 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  30 SEP 2026 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,11 +486,11 @@ Package rerunfilecheck Info: File `Kamal_Resume_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11495 strings out of 474116
- 181561 string characters out of 5743682
- 1944187 words of memory out of 5000000
+ 11505 strings out of 474116
+ 181655 string characters out of 5743682
+ 1945187 words of memory out of 5000000
  33663 multiletter control sequences out of 15000+600000
- 599649 words of font info for 96 fonts, out of 8000000 for 9000
+ 600179 words of font info for 101 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  80i,5n,82p,1012b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -498,7 +498,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Kamal_Resume_CV.pdf (2 pages, 119348 bytes).
+Output written on Kamal_Resume_CV.pdf (2 pages, 119578 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
